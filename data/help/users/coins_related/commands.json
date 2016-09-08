@@ -1,0 +1,91 @@
+{
+    "coins": {
+        "aliases": ["c"],
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": "Same as level command.",
+            "ro": "Aceeaşi funcţionalitate pe care o are şi comanda level."
+        }
+    },
+    "givec": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            },
+            {
+                "name": {
+                    "en": "coins",
+                    "ro": "monede"
+                }
+            }
+        ],
+        "aliases": ["gc"],
+        "description": {
+            "en": [
+                "Gives coins to a user.",
+                "You cannot give coins to unregistered users, anon users or ignored users."
+            ],
+            "ro": [
+                "Donează puncte unui utilizator.",
+                "Nu poţi dona puncte utilizatorilor neînregistraţi, anonimilor şi celor ignoraţi."
+            ]
+        }
+    },
+    "bet": {
+        "params": [
+            {
+                "name": {
+                    "en": "coins",
+                    "ro": "monede"
+                }
+            }
+        ],
+        "aliases": ["betc"],
+        "description": {
+            "en": [
+                "If you have coins you can make bets.",
+                "You can lose points or earn a reward depending on how much you have bet.",
+                "Tip: use `all` as parameter for betting all your money."
+            ],
+            "ro": [
+                "Dacă ai monede, poţi face pariuri.",
+                "Poţi pierde puncte sau să câştigi în funcţie de cât de multe monede ai pariat.",
+                "Sfat: foloseşte `all` ca parametru pentru a-ţi paria toţi banii."
+            ]
+        }
+    },
+    "bank": {
+        "params": [
+            {
+                "name": {
+                    "en": "coins",
+                    "ro": "monede"
+                },
+                "before": "deposit/dep|withdraw/wd",
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Deposit your coins in a bank account to have them increasing multiple times per day.",
+                "This command is available only in PM, so you are the only one who can see your funds."
+            ],
+            "ro": [
+                "Depozitează-ţi monedele într-un cont bancar pentru a obţine o dobândă aplicată de mai multe ori în fiecare zi.",
+                "Comanda aceasta este disponibilă doar în PM, aşadar tu eşti singurul care îţi poate vedea fondurile."
+            ]
+        },
+        "room": false
+    }
+}

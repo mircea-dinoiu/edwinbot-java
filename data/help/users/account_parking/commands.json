@@ -1,0 +1,42 @@
+{
+    "park": {
+        "params": [
+            {
+                "name": {
+                    "en": "duration*",
+                    "ro": "perioadă*"
+                }
+            }
+        ],
+        "description": {
+            "en": [
+                "Park your account.",
+                "This feature is meant to make your account immune to the level downgrades caused by inactivity.",
+                "You cannot use this feature if you don't have the coins needed to park your account for the specified duration.",
+                "The needed coins are calculated based on your level and the duration you have specified.",
+                "Warning: when your account is parked, you cannot access any commands but `unpark`, bank interest will not be applied for you, you cannot play any games and you won't receive the messages corresponding to `listen` command.",
+                "E.g.: Use `park 1d` to park your account for one day.",
+                "E.g.: Use `park 1d 5h` to park your account for one day and five hours.",
+                "On each parameter you gotta specify a number to be used as reference and a leading character which can be either `h` (hour(s)), `d` (day(s)) or `m` (month(s)).",
+                "You cannot park your account for less than 1 hour or more than 30 days."
+            ],
+            "ro": [
+                "Parchează-ţi contul.",
+                "Această funcţionalitate oferă imunitate contului tău la scăderile de levele cauzate de inactivitate.",
+                "Nu poţi folosi această funcţionalitate dacă nu ai destule monede pentru parcarea contului pe perioada specificată.",
+                "Monedele necesare parcării sunt calculate pe baza levelului tău şi perioadei specificate.",
+                "Atenţie: când contul tău e parcat, nu poţi accesa nicio comandă în afară de `unpark`, banca nu va mai genera dobândă, nu te poţi juca nimic şi nu vei mai primi mesajele aferente comenzii `listen`.",
+                "Ex.: Foloseşte `park 1d` pentru parcarea contului timp de o zi.",
+                "Ex.: Foloseşte `park 1d 5h` pentru parcarea contului timp de o zi şi cinci ore.",
+                "Pentru fiecare parametru trebuie să specifici un număr de referinţă urmat de un caracter care poate fi `h` (oră/ore), `d` (zi/zile) sau `m` (lună/luni).",
+                "Parcarea nu este posibilă pentru o perioadă mai scurtă de o oră sau mai lungă de 30 de zile."
+            ]
+        }
+    },
+    "unpark": {
+        "description": {
+            "en": "Unpark your account. See `park` command.",
+            "ro": "Scoate-ţi contul din modul de parcare. Vezi comanda `park`."
+        }
+    }
+}

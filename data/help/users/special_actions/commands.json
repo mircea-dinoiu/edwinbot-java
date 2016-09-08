@@ -1,0 +1,80 @@
+{
+    "merge": {
+        "params": [
+            {
+                "name": {
+                    "en": "user1",
+                    "ro": "utilizator1"
+                },
+                "after": "and"
+            },
+            {
+                "name": {
+                    "en": "user2",
+                    "ro": "utilizator2"
+                },
+                "after": "into"
+            },
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "admin": true,
+        "description": {
+            "en": [
+                "Merge two users in database.",
+                "The third user specified has to be one of the previous specified users.",
+                "Definitions and rooms ownership will be set to the third user.",
+                "The user with the higher level has priority in the merging of the users' data."
+            ],
+            "ro": [
+                "Îmbină doi utilizatori în baza de date.",
+                "Al treilea utilizator specificat trebuie să fie unul din cei specificaţi anterior.",
+                "Proprietatea tuturor definiţiilor şi camerelor va fi trecută pe al treilea utilizator.",
+                "Utilizatorul cu level mai mare are prioritate în îmbinarea datelor utilizatorilor."
+            ]
+        }
+    },
+    "shapeshift": {
+        "aliases": ["ss"],
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "autoCheck": false,
+        "admin": true,
+        "description": {
+            "en": [
+                "By using this command, @BotName@ will recognize you by the username you have specified.",
+                "You will return to your username by using this command without parameter."
+            ],
+            "ro": [
+                "Folosind comanda aceasta, @BotName@ te va recunoaşte după alt nume de utilizator.",
+                "Te poţi întoarce la numele tău de utilizator apelând comanda fără niciun parametru."
+            ]
+        }
+    },
+    "screw": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "admin": true,
+        "description": {
+            "en": "Resets user level and coins, then ignores the user.",
+            "ro": "Resetează levelul şi monedele unui utilizator, după care ignoră utilizatorul."
+        }
+    }
+}

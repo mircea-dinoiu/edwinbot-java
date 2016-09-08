@@ -1,0 +1,56 @@
+{
+    "define": {
+        "aliases": ["df"],
+        "level2": 5,
+        "params": [
+            {
+                "name": {
+                    "en": "keyword",
+                    "ro": "cuvânt-cheie"
+                }
+            },
+            {
+                "name": {
+                    "en": "definition",
+                    "ro": "definiţie"
+                },
+                "required": false,
+                "before": "as"
+            }
+        ],
+        "description": {
+            "en": [
+                "Create a definition.",
+                "If it's used with a single parameter, then it will show the current definition for a keyword.",
+                "Level 1 users can only view definitions."
+            ],
+            "ro": [
+                "Creează o definiţie.",
+                "Dacă se specifică doar un singur paremetru, atunci va afişa definiţia curentă pentru un cuvânt cheie.",
+                "Utilizatorii cu level 1 pot doar să vadă definiţii."
+            ]
+        }
+    },
+    "undefine": {
+        "aliases": ["rdf"],
+        "level": 5,
+        "params": [
+            {
+                "name": {
+                    "en": "keyword",
+                    "ro": "cuvânt-cheie"
+                }
+            }
+        ],
+        "description": {
+            "en": [
+                "Removes a definition.",
+                "A definition can be removed if it was created by you or your level is at least 7 and definition creator's level is below yours."
+            ],
+            "ro": [
+                "Şterge o definiţie.",
+                "O definiţie poate fi ştearsă dacă a fost creată de tine sau levelul tău este cel puţin 7 şi creatorul definiţiei prezintă inferioritate în level faţă de tine."
+            ]
+        }
+    }
+}

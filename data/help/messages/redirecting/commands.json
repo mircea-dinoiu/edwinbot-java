@@ -1,0 +1,30 @@
+{
+    "redirect": {
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                }
+            }
+        ],
+        "level": 17,
+        "description": {
+            "en": [
+                "Redirects all your messages and @BotName@'s response to them from the current chatroom to the specified chatroom.",
+                "@BotName@ must be connected on the specified chatroom."
+            ],
+            "ro": [
+                "Redirecţionează toate mesajele tale şi răspunsurile lui @BotName@ la ele din camera de chat curentă către camera de chat specificată.",
+                "@BotName@ trebuie să fie conectat la camera de chat specificată."
+            ]
+        }
+    },
+    "unredirect": {
+        "level": 17,
+        "description": {
+            "en": "Stops message redirecting action.",
+            "ro": "Opreşte acţiunea de redirecţionare a mesajelor."
+        }
+    }
+}

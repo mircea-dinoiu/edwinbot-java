@@ -1,0 +1,66 @@
+{
+    "say": {
+        "params": [
+            {
+                "name": {
+                    "en": "message",
+                    "ro": "mesaj"
+                }
+            }
+        ],
+        "level": 6,
+        "description": {
+            "en": "@BotName@ will say what you want it to say.",
+            "ro": "@BotName@ va spune ce vrei tu."
+        }
+    },
+    "rsay": {
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                }
+            },
+            {
+                "name": {
+                    "en": "message",
+                    "ro": "mesaj"
+                }
+            }
+        ],
+        "level": 8,
+        "description": {
+            "en": "@BotName@ will say what you want it to say on a specific room.",
+            "ro": "@BotName@ va spune ce vrei tu pe o cameră de chat specificată."
+        }
+    },
+    "announce": {
+        "level": 23,
+        "params": [
+            {
+                "name": {
+                    "en": "message",
+                    "ro": "mesaj"
+                }
+            }
+        ],
+        "aliases": ["yell"],
+        "description": {
+            "en": "Makes an announce on all chatrooms.",
+            "ro": "Afişează un mesaj de anunţ pe toate camerele de chat."
+        }
+    },
+    "LISTENING": {
+        "name": {
+            "en": "LISTENING",
+            "ro": "ASCULTARE"
+        }
+    },
+    "REDIRECTING": {
+        "name": {
+            "en": "REDIRECTING",
+            "ro": "REDIRECŢIONARE"
+        }
+    }
+}

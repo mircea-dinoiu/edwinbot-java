@@ -1,0 +1,51 @@
+{
+    "pm": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            },
+            {
+                "name": {
+                    "en": "message",
+                    "ro": "mesaj"
+                }
+            }
+        ],
+        "level": 14,
+        "description": {
+            "en": "Send a private message to a user.",
+            "ro": "Trimite un mesaj privat unui utilizator."
+        }
+    },
+    "flagpic": {
+        "params": [
+            {
+                "name": {
+                    "en": "users*",
+                    "ro": "utilizatori*"
+                }
+            }
+        ],
+        "slow": true,
+        "admin": true,
+        "description": {
+            "en": [
+                "Flags a user's picture.",
+                "Can be used on multiple users at once by listing them separated by space."
+            ],
+            "ro": [
+                "Raportează poza unui utilizator.",
+                "Comanda poate fi folosită pe mai mulţi utilizatori deodată enumerându-i pe toţi prin spaţii."
+            ]
+        }
+    },
+    "CONTACTS": {
+        "name": {
+            "en": "CONTACTS",
+            "ro": "CONTACTE"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "blackrooms": {
+        "level": 4,
+        "description": {
+            "en": "Get the blacklisted chatrooms.",
+            "ro": "Afişează lista de camere interzise."
+        }
+    },
+    "blacklist": {
+        "level": 29,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "If the chatroom is not specified, the `blackrooms` command is called.",
+                "Blacklists a chatroom.",
+                "Note: You can call this command for a chatroom just if you're the initiator or the initiator has a smaller level than yours."
+            ],
+            "ro": [
+                "Dacă nu e specificată camera de chat, comanda `blackrooms` este apelată.",
+                "Adaugă o cameră pe lista de camere interzise.",
+                "Notă: Poţi apela această comandă pentru o cameră de chat doar dacă eşti iniţiatorul sau iniţiatorul îţi este inferior în level."
+            ]
+        }
+    },
+    "unblacklist": {
+        "level": 28,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                }
+            }
+        ],
+        "description": {
+            "en": [
+                "Removes a chatroom from blacklist.",
+                "Note: You can call this command for a chatroom just if you're the initiator or the initiator has a smaller level than yours."
+            ],
+            "ro": [
+                "Elimină o cameră de pe lista de camere interzise.",
+                "Notă: Poţi apela această comandă pentru o cameră de chat doar dacă eşti iniţiatorul sau iniţiatorul îţi este inferior în level."
+            ]
+        }
+    }
+}

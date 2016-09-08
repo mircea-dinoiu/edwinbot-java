@@ -1,0 +1,51 @@
+{
+    "contacts": {
+        "level": 10,
+        "description": {
+            "en": "Get the PM contact list of @BotName@.",
+            "ro": "Afişează lista de contacte din PM ale lui @BotName@."
+        }
+    },
+    "addcontacts": {
+        "params": [
+            {
+                "name": {
+                    "en": "users*",
+                    "ro": "utilizatori*"
+                }
+            }
+        ],
+        "admin": true,
+        "description": {
+            "en": [
+                "Adds users to @BotName@'s PM contact list.",
+                "Use `addcontacts contact1 contact2 contact3` to add several contacts at once."
+            ],
+            "ro": [
+                "Adaugă utilizatori pe lista de contacte a lui @BotName@ din PM.",
+                "Foloseşte `addcontacts contact1 contact2 contact3` pentru a adăuga mai multe contacte deodată."
+            ]
+        }
+    },
+    "removecontacts": {
+        "params": [
+            {
+                "name": {
+                    "en": "users*",
+                    "ro": "utilizatori*"
+                }
+            }
+        ],
+        "admin": true,
+        "description": {
+            "en": [
+                "Removes users from @BotName@'s PM contact list.",
+                "Use `removecontacts contact1 contact2 contact3` to remove several contacts at once."
+            ],
+            "ro": [
+                "Elimină utilizatori din lista de contacte a lui @BotName@ din PM.",
+                "Foloseşte `removecontacts contact1 contact2 contact3` pentru a elimina mai multe contacte deodată."
+            ]
+        }
+    }
+}

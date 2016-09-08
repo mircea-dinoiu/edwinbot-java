@@ -1,0 +1,32 @@
+{
+    "listen": {
+        "level": 10,
+        "params": [
+            {
+                "name": {
+                    "en": "text",
+                    "ro": "text"
+                }
+            }
+        ],
+        "description": {
+            "en": "@BotName@ will give you a private message if the text you specified appears in a message on the chatrooms he is connected to.",
+            "ro": "@BotName@ îţi va trimite un mesaj privat dacă textul specificat apare într-un mesaj pe o cameră de chat la care este conectat."
+        }
+    },
+    "unlisten": {
+        "level": 1,
+        "params": [
+            {
+                "name": {
+                    "en": "text",
+                    "ro": "text"
+                }
+            }
+        ],
+        "description": {
+            "en": "You will not receive anymore private messages when the @BotName@ sees the specified text in chatroom messages.",
+            "ro": "Nu vei mai primi mesaje private când @BotName@ vede textul specificat în mesajele de pe camerele de chat."
+        }
+    }
+}

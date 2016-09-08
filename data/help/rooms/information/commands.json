@@ -1,0 +1,24 @@
+{
+    "room": {
+        "level": 2,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": "Get administrative information for a chatroom.",
+            "ro": "Afişează informaţii administrative despre o cameră de chat."
+        }
+    },
+    "CHATANGO": {
+        "name": {
+            "en": "CHATANGO",
+            "ro": "CHATANGO"
+        }
+    }
+}

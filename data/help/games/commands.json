@@ -1,0 +1,88 @@
+{
+    "games": {
+        "description": {
+            "en": "Get the list of the games.",
+            "ro": "Afişează lista jocurilor."
+        }
+    },
+    "game": {
+        "description": {
+            "en": "Get the name of the running game in the current chatroom.",
+            "ro": "Află numele jocului ce rulează în camera curentă."
+        },
+        "pm": false
+    },
+    "startgame": {
+        "level": 16,
+        "orModerator": true,
+        "params": [
+            {
+                "name": {
+                    "en": "game",
+                    "ro": "joc"
+                }
+            }
+        ],
+        "description": {
+            "en": "Starts a game on the current chatroom.",
+            "ro": "Porneşte un joc în camera curentă."
+        },
+        "pm": false
+    },
+    "stopgame": {
+        "level": 25,
+        "description": {
+            "en": "Stops the game running on the current chatroom.",
+            "ro": "Opreşte jocul care rulează în camera curentă."
+        },
+        "pm": false
+    },
+    "restartgame": {
+        "level": 25,
+        "description": {
+            "en": "Restarts the game running on the current chatroom.",
+            "ro": "Reporneşte jocul care rulează în camera curentă."
+        },
+        "pm": false
+    },
+    "pausegame": {
+        "level": 20,
+        "orModerator": true,
+        "description": {
+            "en": "Pause the game running on the current chatroom.",
+            "ro": "Pune pauză jocului care rulează în camera curentă."
+        },
+        "pm": false
+    },
+    "resumegame": {
+        "level": 20,
+        "orModerator": true,
+        "description": {
+            "en": "Resume the game running on the current chatroom.",
+            "ro": "Reia jocul care rulează în camera curentă."
+        },
+        "pm": false
+    },
+    "votegame": {
+        "level": 5,
+        "params": [
+            {
+                "name": {
+                    "en": "game",
+                    "ro": "joc"
+                }
+            }
+        ],
+        "description": {
+            "en": [
+                "If no moderator is present or you don't have the required level to start a game, you and other people can start a vote session for a game.",
+                "The vote session will end when a game is voted 5 times."
+            ],
+            "ro": [
+                "Dacă nu este niciun moderator prin preajmă sau nu ai levelul necesar ca să porneşti un joc, o sesiune de vot poate fi pornită pentru alegerea unui joc.",
+                "Votarea ia sfârşit atunci când un joc este votat de 5 oameni."
+            ]
+        },
+        "pm": false
+    }
+}

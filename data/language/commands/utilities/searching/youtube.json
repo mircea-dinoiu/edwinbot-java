@@ -1,0 +1,12 @@
+{
+	"YOUTUBE": {
+		"en": [
+            "{title} uploaded by {author}",
+            "{url}"
+        ],
+		"ro": [
+		    "{title} încărcat de {author}",
+		    "{url}"
+        ]
+	}
+}

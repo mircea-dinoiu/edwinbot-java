@@ -1,0 +1,200 @@
+{
+    "flag": {
+        "level": 16,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            },
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "description": {
+            "en": [
+                "Flags a user.",
+                "Chatroom parameter is optional.",
+                "If you want to flag someone without anybody from the chatroom would know, you can use chatroom parameter, but @BotName@ will have to be connected to the chatroom specified."
+            ],
+            "ro": [
+                "Dă flag unui utilizator.",
+                "Parametrul cameră de chat este opţional.",
+                "Dacă vrei să dai flag cuiva fără ca cineva din camera de chat să ştie, poţi folosi parametrul opţional, dar @BotName@ trebuie să fie conectat la camera specificată."
+            ]
+        }
+    },
+    "clearrecent": {
+        "aliases": ["deleterecent"],
+        "requiresUserModerator": true,
+        "requiresBotModerator": true,
+        "description": {
+            "en": "Deletes the recent messages from the chat.",
+            "ro": "Şterge mesajele recente din chat."
+        },
+        "pm": false
+    },
+    "delete": {
+        "aliases": ["clear", "erase"],
+        "requiresUserModerator": true,
+        "requiresBotModerator": true,
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "description": {
+            "en": "Deletes all specified user's messages from the current chatroom.",
+            "ro": "Şterge toate mesajele utilizatorului specificat din camera de chat curentă."
+        },
+        "pm": false
+    },
+    "pdelete": {
+        "aliases": ["pclear", "perase"],
+        "requiresUserModerator": true,
+        "requiresBotModerator": true,
+        "params": [
+            {
+                "name": {
+                    "en": "parameter",
+                    "ro": "parametru"
+                }
+            }
+        ],
+        "description": {
+            "en": "Deletes all users' messages from the current chatroom whose usernames contains specified parameter value.",
+            "ro": "Şterge toate mesajele utilizatorilor din camera de chat curentă ale căror nume de utilizator conţin valoarea parametrului specificat."
+        },
+        "pm": false
+    },
+    "autodelete": {
+        "level2": 30,
+        "requiresUserModerator": false,
+        "requiresBotModerator": true,
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "after": "on|off"
+            }
+        ],
+        "description": {
+            "en": [
+                "Toggles auto-delete option.",
+                "Without any parameters specified, it will show the auto-delete list.",
+                "@BotName@ will delete specified user's message in every room that he has moderator access in if this option is activated."
+            ],
+            "ro": [
+                "Setează opţiunea de ştergere automată.",
+                "Fără a specifica vreun parametru, va afişa utilizatorii de pe lista de ştergere automată.",
+                "@BotName@ va şterge mesajele utilizatorului specificat în fiecare cameră de chat în care are drepturi de moderare dacă opţiunea este activată."
+            ]
+        }
+    },
+    "ban": {
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            },
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "autoCheck": false,
+        "requiresUserModerator": true,
+        "requiresBotModerator": true,
+        "description": {
+            "en": [
+                "Bans a user.",
+                "This command cannot be used on a user that has moderator access on the specified/current chatroom.",
+                "The chatroom parameter is optional as long as you use this command on the chatroom you want to ban the user on."
+            ],
+            "ro": [
+                "Banează un utilizator.",
+                "Comanda aceasta nu poate fi folosită pe un utilizator care are access de moderare pe camera specificată/curentă.",
+                "Parametrul cameră de chat este opţional cât timp foloseşti comanda pe camera de chat pe care vrei să banezi utilizatorul."
+            ]
+        }
+    },
+    "easyban": {
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            },
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "autoCheck": false,
+        "requiresUserModerator": true,
+        "requiresBotModerator": true,
+        "description": {
+            "en": [
+                "Bans a user and clears all his messages.",
+                "This command cannot be used on a user that has moderator access on the specified/current chatroom.",
+                "The chatroom parameter is optional as long as you use this command on the chatroom you want to ban the user on."
+            ],
+            "ro": [
+                "Banează un utilizator şi şterge toate mesajele sale.",
+                "Comanda aceasta nu poate fi folosită pe un utilizator care are access de moderare pe camera specificată/curentă.",
+                "Parametrul cameră de chat este opţional cât timp foloseşti comanda pe camera de chat pe care vrei să banezi utilizatorul."
+            ]
+        }
+    },
+    "unban": {
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            },
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "autoCheck": false,
+        "requiresUserModerator": true,
+        "requiresBotModerator": true,
+        "description": {
+            "en": [
+                "Unbans a user.",
+                "This command cannot be used on a user that has moderator access on the specified/current chatroom.",
+                "The chatroom parameter is optional as long as you use this command on the chatroom you want to unban the user on."
+            ],
+            "ro": [
+                "Debanează un utilizator.",
+                "Comanda aceasta nu poate fi folosită pe un utilizator care are access de moderare pe camera specificată/curentă.",
+                "Parametrul cameră de chat este opţional cât timp foloseşti comanda pe camera de chat pe care vrei să debanezi utilizatorul."
+            ]
+        }
+    }
+}

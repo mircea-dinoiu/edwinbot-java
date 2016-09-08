@@ -1,0 +1,50 @@
+{
+    "lottery": {
+        "params": [
+            {
+                "name": {
+                    "en": "type",
+                    "ro": "tip"
+                },
+                "hideName": true,
+                "before": "level/lvl|coins/coin/c"
+            }
+        ],
+        "description": {
+            "en": "Get information related to the running lottery sessions.",
+            "ro": "Află informaţii despre sesiunile curente de loterie."
+        }
+    },
+    "top": {
+        "params": [
+            {
+                "name": {
+                    "en": "type",
+                    "ro": "tip"
+                },
+                "hideName": true,
+                "before": "level/lvl|coins/coin/c"
+            },
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Get the users with the highest levels or with the most coins.",
+                "Specify a chatroom to get the top for the users that are connected on the specified chatroom.",
+                "By not specifying the chatroom parameter, you'll get this top for the users that are connected on the current chatroom."
+            ],
+            "ro": [
+                "Afişează utilizatorii cu cele mai mari levele sau cu cele mai multe monede.",
+                "Specifică o cameră de chat pentru a afişa topul pentru utilizatorii care sunt conectaţi pe camera specificată.",
+                "Dacă nu este specificat parametrul cameră de chat, se va afişa topul pentru utilizatorii conectaţi pe camera curentă."
+            ]
+        },
+        "level": 9
+    }
+}

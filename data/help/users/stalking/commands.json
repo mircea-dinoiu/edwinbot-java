@@ -1,0 +1,54 @@
+{
+    "whereis": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "description": {
+            "en": [
+                "Get the rooms where a user is connected to.",
+                "This command is working just for the rooms where @BotName@ is present."
+            ],
+            "ro": [
+                "Afişează camerele unde este conectat un utilizator.",
+                "Comanda aceasta funcţionează doar pentru camerele unde @BotName@ e prezent."
+            ]
+        },
+        "level": 15
+    },
+    "whois": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": "Find out the accounts of a user.",
+            "ro": "Găseşte conturile unui utilizator."
+        },
+        "level": 19
+    },
+    "seen": {
+        "level": 18,
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "description": {
+            "en": "Find out the last room a user went in and sent a message.",
+            "ro": "Află ultima cameră de chat în care un utilizator a activat."
+        }
+    }
+}

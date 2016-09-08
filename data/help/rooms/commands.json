@@ -1,0 +1,79 @@
+{
+    "rooms": {
+        "level": 4,
+        "description": {
+            "en": "Get the chatrooms @BotName@ is connected to.",
+            "ro": "Afişează camerele de chat la care @BotName@ e conectat."
+        }
+    },
+    "join": {
+        "level": 11,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                }
+            }
+        ],
+        "description": {
+            "en": "Joins a chatroom.",
+            "ro": "Intră pe o cameră de chat."
+        }
+    },
+    "leave": {
+        "level": 24,
+        "level2": 29,
+        "autoCheck": false,
+        "orModerator": true,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Leaves a chatroom.",
+                "Parameter is optional. @BotName@ will leave the current chatroom if no chatroom is specified.",
+                "This command ignores your access to the bot if you have moderator access on the specified/current room.",
+                "Note: You can call this command for a chatroom just if you're the initiator, you have moderator access or the initiator has a smaller level than yours.",
+                "Tip: You can use * instead of specifying the chatroom name to leave all the rooms but the default rooms (available for Lvl 29+ users only)."
+            ],
+            "ro": [
+                "Părăseşte o cameră de chat.",
+                "Parametrul e opţional. @BotName@ va părăsi camera curentă dacă nicio cameră de chat nu e specificată.",
+                "Accesul tău la bot este ignorat dacă ai drepturi de moderare pe camera specificată/curentă.",
+                "Notă: Poţi apela comanda aceasta pentru o cameră de chat doar dacă eşti iniţiatorul, ai drepturi de moderare sau iniţiatorul îţi este inferior în level.",
+                "Sfat: Poţi folosi * în loc să specifici camera de chat pentru a părăsi toate camerele în afară de cele implicite (valabil doar pentru utilizatori cu level cel puţin 29)."
+            ]
+        }
+    },
+    "INFORMATION": {
+        "name": {
+            "en": "INFORMATION",
+            "ro": "INFORMAŢII"
+        }
+    },
+    "SETTINGS": {
+        "name": {
+            "en": "SETTINGS",
+            "ro": "SETĂRI"
+        }
+    },
+    "MODERATION": {
+        "name": {
+            "en": "MODERATION",
+            "ro": "MODERARE"
+        }
+    },
+    "BLACKLISTING": {
+        "name": {
+            "en": "BLACKLISTING",
+            "ro": "BLOCARE CAMERE DE CHAT"
+        }
+    }
+}

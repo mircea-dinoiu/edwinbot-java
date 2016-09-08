@@ -1,0 +1,112 @@
+{
+    "nick": {
+        "params": [
+            {
+                "name": {
+                    "en": "nick",
+                    "ro": "pseudonim"
+                }
+            }
+        ],
+        "level": 9,
+        "description": {
+            "en": [
+                "Set a nick that will appear instead of your username in the messages from @BotName@ to you.",
+                "Remove the nick by using your username as parameter."
+            ],
+            "ro": [
+                "Setează un pseudonim care va apărea în locul numeului tău de utilizator în mesajele de la @BotName@ către tine.",
+                "Elimină pseudonimul folosind numele tău de utilizator ca parametru."
+            ]
+        }
+    },
+    "buy": {
+        "params": [
+            {
+                "name": {
+                    "en": "object",
+                    "ro": "obiect"
+                },
+                "hideName": true,
+                "before": "level/lvl|lottery/lot"
+            },
+            {
+                "name": {
+                    "en": "parameter1",
+                    "ro": "parametru1"
+                },
+                "hideName": true,
+                "before": "level||level/lvl|coins/coin/c",
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "You can use coins to: buy level upgrades or lottery tickets.",
+                "E.g.: Use `buy level` to buy a level upgrade.",
+                "E.g.: Use `buy level 25` to reach level 25 by buying all the level upgrades between your current level and the desired level.",
+                "E.g.: Use `buy lottery level` to buy a level lottery ticket.",
+                "E.g.: Use `buy lottery level coins` to buy tickets for multiple lotteries at once. The usage in the example will buy you a ticket for the level lottery and another ticket for the coins lottery.",
+                "E.g.: Use `buy lottery` to buy tickets for all lotteries.",
+                "This command supports shorter parameters, e.g.: `buy lvl`, `buy lot c`, `buy lot c lvl`, etc."
+            ],
+            "ro": [
+                "Poţi folosi monedele pentru a: cumpăra măriri de level sau bilete de loterie.",
+                "Ex.: Foloseşte `buy level` pentru a cumpăra o mărire de level.",
+                "Ex.: Foloseşte `buy level 25` pentru a ajunge la level 25 cumpărând toate măririle de level dintre levelul tău actual şi levelul dorit.",
+                "Ex.: Foloseşte `buy lottery level` pentru a cumpăra un bilet la loteria de levele.",
+                "Ex.: Foloseşte `buy lottery level coins` pentru a cumpăra bilete pentru mai multe loterii în acelaşi timp. Folosind comanda ca în exemplu vei cumpăra un bilet pentru loteria de levele şi unul pentru loteria de monede.",
+                "Ex.: Foloseşte `buy lottery` pentru a cumpăra bilete pentru toate loteriile.",
+                "Comanda aceasta suportă parametri scurţi, ex.: `buy lvl`, `buy lot c`, `buy lot c lvl`, etc."
+            ]
+        }
+    },
+    "INFORMATION": {
+        "name": {
+            "en": "INFORMATION",
+            "ro": "INFORMAŢII"
+        }
+    },
+    "LEVEL_RELATED": {
+        "name": {
+            "en": "LEVEL RELATED",
+            "ro": "LEVELE"
+        }
+    },
+    "COINS_RELATED": {
+        "name": {
+            "en": "COINS RELATED",
+            "ro": "MONEDE"
+        }
+    },
+    "STALKING": {
+        "name": {
+            "en": "STALKING",
+            "ro": "URMĂRIRE"
+        }
+    },
+    "IGNORING": {
+        "name": {
+            "en": "IGNORING",
+            "ro": "IGNORARE"
+        }
+    },
+    "RESTRICTIONS": {
+        "name": {
+            "en": "RESTRICTIONS",
+            "ro": "RESTRICŢII"
+        }
+    },
+    "ACCOUNT_PARKING": {
+        "name": {
+            "en": "ACCOUNT PARKING",
+            "ro": "PARCARE DE CONTURI"
+        }
+    },
+    "SPECIAL_ACTIONS": {
+        "name": {
+            "en": "SPECIAL ACTIONS",
+            "ro": "ACŢIUNI SPECIALE"
+        }
+    }
+}

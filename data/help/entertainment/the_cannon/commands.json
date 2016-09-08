@@ -1,0 +1,46 @@
+{
+    "cannon": {
+        "level": 7,
+        "description": {
+            "en": "Get information about the loaded ammunition and the target.",
+            "ro": "Află informaţii despre muniţia încărcată şi ţinta stabilită."
+        }
+    },
+    "load": {
+        "level": 7,
+        "params": [
+            {
+                "name": {
+                    "en": "ammunition",
+                    "ro": "muniţie"
+                }
+            }
+        ],
+        "description": {
+            "en": "Load the cannon with ammunition.",
+            "ro": "Încarcă tunul cu muniţie."
+        }
+    },
+    "target": {
+        "level": 7,
+        "params": [
+            {
+                "name": {
+                    "en": "target-name",
+                    "ro": "nume-ţintă"
+                }
+            }
+        ],
+        "description": {
+            "en": "Set the target to shoot at.",
+            "ro": "Stabileşte o ţintă în care să tragi."
+        }
+    },
+    "fire": {
+        "level": 7,
+        "description": {
+            "en": "Fire the cannon.",
+            "ro": "Trage cu tunul."
+        }
+    }
+}

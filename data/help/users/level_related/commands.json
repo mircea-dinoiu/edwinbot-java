@@ -1,0 +1,33 @@
+{
+    "level": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "aliases": ["lvl"],
+        "description": {
+            "en": [
+                "Without parameters it shows your level and your coins.",
+                "Otherwise, it will show specified user's level and user's coins."
+            ],
+            "ro": [
+                "Fără niciun parametru specificat, îţi va afişa levelul şi numărul tău de monede.",
+                "În caz contrar, va afişa datele corespunzătoare utilizatorului specificat."
+            ]
+        }
+    },
+    "tradelevel": {
+        "aliases": ["tradelvl"],
+        "level": 2,
+        "description": {
+            "en": "Trade a level for its value in coins.",
+            "ro": "Vinde un level pentru valoarea sa în monede."
+        },
+        "adminTrespass": false
+    }
+}

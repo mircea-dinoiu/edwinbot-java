@@ -1,0 +1,51 @@
+{
+    "google": {
+        "params": [
+            {
+                "name": {
+                    "en": "text",
+                    "ro": "text"
+                }
+            }
+        ],
+        "description": {
+            "en": "Show someone how easy it is to use Google.",
+            "ro": "Arată-i cuiva cât de uşor e să foloseşti Google."
+        },
+        "level": 2
+    },
+    "9gag": {
+        "description": {
+            "en": "Get a random post from 9GAG.",
+            "ro": "Afişează un articol aleatoriu de pe 9GAG."
+        },
+        "level": 3
+    },
+    "chat": {
+        "params": [
+            {
+                "name": {
+                    "en": "message",
+                    "ro": "mesaj"
+                }
+            }
+        ],
+        "description": {
+            "en": [
+                "Chat with @BotName@.",
+                "This command is also called when you include @BotName@'s name in a sentence."
+            ],
+            "ro": [
+                "Vorbeşte cu @BotName@.",
+                "Comanda este apelată de asemenea când incluzi numele lui @BotName@ într-o propoziţie."
+            ]
+        },
+        "slow": true
+    },
+    "THE_CANNON": {
+        "name": {
+            "en": "THE CANNON",
+            "ro": "TUNUL"
+        }
+    }
+}

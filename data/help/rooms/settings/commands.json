@@ -1,0 +1,92 @@
+{
+    "speak": {
+        "level": 13,
+        "pm": false,
+        "description": {
+            "en": "@BotName@ will start talking with all the people on the current chatroom.",
+            "ro": "@BotName@ va începe să vorbească cu toţi utilizatorii din camera de chat curentă."
+        }
+    },
+    "shutup": {
+        "level": 12,
+        "pm": false,
+        "description": {
+            "en": "Stops the functionality activated by speak command.",
+            "ro": "Opreşte funcţionalitatea activată de comanda speak."
+        }
+    },
+    "sleep": {
+        "level": 22,
+        "level2": 27,
+        "orModerator": true,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Without parameters the target chatroom will be the current chatroom.",
+                "@BotName@ will stop responding until someone triggers the wakeup command.",
+                "Tip: You can use * instead of specifying the chatroom name to sleep on all the rooms but the default rooms (available for Lvl 27+ users only)."
+            ],
+            "ro": [
+                "Fără niciun parametru, comanda va fi aplicată camerei curente.",
+                "@BotName@ va înceta să mai răspundă comenzilor până cineva apelează comanda wakeup.",
+                "Sfat: Poţi folosi * în loc să specifici camera de chat pentru a aplica funcţionalitatea pe toate camerele în afară de cele implicite (valabil doar pentru utilizatori cu level cel puţin 27)."
+            ]
+        }
+    },
+    "wakeup": {
+        "level": 21,
+        "level2": 26,
+        "orModerator": true,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Without parameters the target chatroom will be the current chatroom.",
+                "@BotName@ will start responding to commands in the chatroom.",
+                "You can use * instead of specifying the chatroom name to wake up on all the rooms (available for Lvl 26+ users only)."
+            ],
+            "ro": [
+                "Fără niciun parametru, comanda va fi aplicată camerei curente.",
+                "@BotName@ va începe să răspundă comenzilor din camera de chat.",
+                "Poţi folosi * în loc să specifici camera de chat pentru a aplica funcţionalitatea pe toate camerele (valabil doar pentru utilizatori cu level cel puţin 26)."
+            ]
+        }
+    },
+    "delay": {
+        "admin": true,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            },
+            {
+                "name": {
+                    "en": "seconds",
+                    "ro": "secunde"
+                }
+            }
+        ],
+        "description": {
+            "en": "Sets the delay of @BotName@'s sent messages on a room. By default: 1 second.",
+            "ro": "Setează întârzierea cu care mesajele lui @BotName@ sunt trimise pe o cameră de chat. Implicit: 1 secundă."
+        }
+    }
+}

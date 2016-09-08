@@ -1,0 +1,102 @@
+{
+    "help": {
+        "level": 0,
+        "description": {
+            "en": [
+                "Whitelist yourself if you are not already whitelisted.",
+                "You'll get general information about @BotName@."
+            ],
+            "ro": [
+                "Adaugă-te pe lista de utilizatori recunoscuţi de către bot.",
+                "Comanda afişează informaţii generale despre @BotName@."
+            ]
+        }
+    },
+    "cmds":{
+        "description": {
+            "en": "Get the command list.",
+            "ro": "Afişează lista comenzilor."
+        }
+    },
+    "man": {
+        "params": [
+            {
+                "name": {
+                    "en": "command",
+                    "ro": "comandă"
+                }
+            }
+        ],
+        "description": {
+            "en": "Learn how to use a certain command.",
+            "ro": "Învaţă cum să foloseşti o comandă."
+        }
+    },
+    "info": {
+        "level": 2,
+        "description": {
+            "en": "General bot information.",
+            "ro": "Informaţii generale despre bot."
+        }
+    },
+    "ENTERTAINMENT": {
+        "name": {
+            "en": "ENTERTAINMENT",
+            "ro": "AMUZAMENT"
+        }
+    },
+    "UTILITIES": {
+        "name": {
+            "en": "UTILITIES",
+            "ro": "UTILITĂŢI"
+        }
+    },
+    "MESSAGES": {
+        "name": {
+            "en": "MESSAGES",
+            "ro": "MESAJE"
+        }
+    },
+    "GAMES": {
+        "name": {
+            "en": "GAMES",
+            "ro": "JOCURI"
+        }
+    },
+    "USERS": {
+        "name": {
+            "en": "USERS",
+            "ro": "UTILIZATORI"
+        }
+    },
+    "STREAMS": {
+        "name": {
+            "en": "STREAMS",
+            "ro": "FLUXURI"
+        }
+    },
+    "ROOMS": {
+        "name": {
+            "en": "ROOMS",
+            "ro": "CAMERE DE CHAT"
+        }
+    },
+    "PRIVATE_MESSAGING": {
+        "name": {
+            "en": "PRIVATE MESSAGING",
+            "ro": "MESAJE PRIVATE"
+        }
+    },
+    "MISCELLANEOUS": {
+        "name": {
+            "en": "MISCELLANEOUS",
+            "ro": "DIVERSE"
+        }
+    },
+    "SYSTEM": {
+        "name": {
+            "en": "SYSTEM",
+            "ro": "SISTEM"
+        }
+    }
+}

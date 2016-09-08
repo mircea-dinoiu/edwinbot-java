@@ -1,0 +1,51 @@
+{
+    "youtube": {
+        "aliases": ["yt", "video"],
+        "params": [
+            {
+                "name": {
+                    "en": "text",
+                    "ro": "text"
+                }
+            }
+        ],
+        "description": {
+            "en": "Search something on Youtube.",
+            "ro": "Căutare pe Youtube."
+        },
+        "level": 4
+    },
+    "image": {
+        "aliases": ["img", "pic"],
+        "params": [
+            {
+                "name": {
+                    "en": "text",
+                    "ro": "text"
+                }
+            }
+        ],
+        "description": {
+            "en": "Search for an image on Google Images.",
+            "ro": "Caută o imagine pe Imagini Google."
+        },
+        "level": 4,
+        "slow": true
+    },
+    "search": {
+        "aliases": ["find"],
+        "params": [
+            {
+                "name": {
+                    "en": "text",
+                    "ro": "text"
+                }
+            }
+        ],
+        "description": {
+            "en": "Search for a text on Google Web Search.",
+            "ro": "Caută un text pe Google."
+        },
+        "level": 3
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "profile": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "aliases": ["fpic"],
+        "level": 6,
+        "description": {
+            "en": [
+                "Get profile information and picture of a user.",
+                "If no user is specified, it will show your profile data."
+            ],
+            "ro": [
+                "Vezi informaţiile de la profilul unui utilizator şi poza lui.",
+                "Dacă utilizatorul nu e specificat, se vor afişa informaţiile tale."
+            ]
+        }
+    },
+    "bg": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "level": 7,
+        "description": {
+            "en": [
+                "Get background image of a user.",
+                "If no user is specified, it will show your background."
+            ],
+            "ro": [
+                "Vezi imaginea de fundal a unui utilizator.",
+                "Dacă utilizatorul nu e specificat, va afişa imaginea ta de fundal."
+            ]
+        }
+    },
+    "bgtime": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "level": 7,
+        "description": {
+            "en": [
+                "Get date when user's premium features expires.",
+                "If no user is specified, it will show your premium features expire date."
+            ],
+            "ro": [
+                "Afişează data la care facilităţile premium vor expira pentru un utilizator.",
+                "Dacă utilizatorul nu e specificat, va afişa data la care îţi vor expira facilităţile premium."
+            ]
+        }
+    },
+    "mini": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "level": 6,
+        "description": {
+            "en": [
+                "Get mini profile of a user.",
+                "If no user is specified, it will show your mini profile."
+            ],
+            "ro": [
+                "Afişează mini-profilul unui utilizator.",
+                "Dacă utilizatorul nu e specificat, va arăta mini-profilul tău."
+            ]
+        },
+        "pm": false
+    },
+    "minihtml": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "level": 8,
+        "description": {
+            "en": [
+                "Get mini profile HTML code of a user.",
+                "If no user is specified, it will show your mini profile's code."
+            ],
+            "ro": [
+                "Afişează codul HTML de la mini-profilul unui utilizator.",
+                "Dacă utilizatorul nu e specificat, va arăta codul de la mini-profilul tău."
+            ]
+        },
+        "pm": false
+    }
+}

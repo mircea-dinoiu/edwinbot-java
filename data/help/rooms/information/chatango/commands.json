@@ -1,0 +1,46 @@
+{
+    "mods": {
+        "level": 2,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Get the owner/moderators of current chatroom.",
+                "If you specify the chatroom it will show the owner/moderators of that room only if @BotName@ is connected to that room."
+            ],
+            "ro": [
+                "Afişează proprietarul/moderatorii camerei curente.",
+                "Dacă specifici o cameră de chat, va afişa proprietarul/moderatorii camerei doar dacă @BotName@ e conectat la camera respectivă."
+            ]
+        }
+    },
+    "bwords": {
+        "level": 3,
+        "params": [
+            {
+                "name": {
+                    "en": "chatroom",
+                    "ro": "cameră-de-chat"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Get the banned words of current chatroom.",
+                "If you specify the chatroom it will show the banned words of that room only if @BotName@ is connected to that room."
+            ],
+            "ro": [
+                "Afişează cuvintele interzise ale camerei curente.",
+                "Dacă specifici o cameră de chat, va afişa cuvintele interzise ale camerei doar dacă @BotName@ e conectat la camera respectivă."
+            ]
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "ignored": {
+        "level": 5,
+        "aliases": ["blocked"],
+        "description": {
+            "en": "Get the ignored user list.",
+            "ro": "Afişează lista de utilizatori ignoraţi."
+        }
+    },
+    "ignore": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "level": 30,
+        "aliases": ["block"],
+        "description": {
+            "en": [
+                "Ignores a user.",
+                "@BotName@ will not respond anymore to user's commands.",
+                "You cannot use ignore for users with same level or higher than yours."
+            ],
+            "ro": [
+                "Ignoră un utilizator.",
+                "@BotName@ va înceta să răspundă comenzilor date de utilizatorul specificat.",
+                "Nu poţi apela această comandă pentru un utilizator care îţi este superior în level."
+            ]
+        }
+    },
+    "unignore": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                }
+            }
+        ],
+        "level": 30,
+        "aliases": ["unblock"],
+        "description": {
+            "en": [
+                "Unignores a user.",
+                "@BotName@ will start responding to user's commands."
+            ],
+            "ro": [
+                "Elimină un utilizator de pe lista de utilizatori ignoraţi.",
+                "@BotName@ va începe să răspundă comenzilor date de utilizatorul specificat."
+            ]
+        }
+    }
+}

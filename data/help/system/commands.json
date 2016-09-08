@@ -1,0 +1,24 @@
+{
+    "rst": {
+        "level": 30,
+        "description": {
+            "en": "@BotName@ will be restarted.",
+            "ro": "@BotName@ va fi repornit."
+        }
+    },
+    "log": {
+        "admin": true,
+        "params": [
+            {
+                "name": {
+                    "en": "level",
+                    "ro": "nivel"
+                }
+            }
+        ],
+        "description": {
+            "en": "Set the logging level with a number between 0 and 3.",
+            "ro": "Setează nivelul de înregistrare a datelor în jurnal."
+        }
+    }
+}

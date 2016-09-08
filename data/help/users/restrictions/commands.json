@@ -1,0 +1,84 @@
+{
+    "restrictions": {
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "description": {
+            "en": [
+                "Get the command and game restrictions for a certain user.",
+                "If no user is specified, it will show your restrictions."
+            ],
+            "ro": [
+                "Afişează restricţiile la comenzi sau la jocuri aplicate unui utilizator.",
+                "Dacă utilizatorul nu e specificat, va afişa restricţiile tale."
+            ]
+        },
+        "level": 12
+    },
+    "restrict": {
+        "params": [
+            {
+                "name": {
+                    "en": "key[s]",
+                    "ro": "chei[e]"
+                },
+                "before": "command[s]|game[s]"
+            },
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "before": "for"
+            }
+        ],
+        "level": 27,
+        "description": {
+            "en": [
+                "Restrict a command or a game for a certain user.",
+                "You can't call this command for a user with a higher level than yours."
+            ],
+            "ro": [
+                "Restricţionează o comandă sau un joc unui utilizator.",
+                "Nu poţi apela această comandă pentru un utilizator care îţi este superior în level."
+            ]
+        }
+    },
+    "unrestrict": {
+        "params": [
+            {
+                "name": {
+                    "en": "key[s]",
+                    "ro": "chei[e]"
+                },
+                "before": "command[s]|game[s]"
+            },
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "before": "for"
+            }
+        ],
+        "level": 26,
+        "description": {
+            "en": [
+                "Unrestrict a command or a game for a certain user.",
+                "You can't call this command for a user with a higher level than yours.",
+                "This command can be also called by using the following syntax: unrestrict * for user, meaning that all the restrictions will be removed for a certain user."
+            ],
+            "ro": [
+                "Elimină restricţia la o comandă sau un joc aplicată unui utilizator.",
+                "Nu poţi apela această comandă pentru un utilizator care îţi este superior în level.",
+                "Comanda mai poate fi apelată folosind sintaxa: unrestrict * for utilizator, rezultând la eliminarea tuturor restricţiilor aplicate unui utilizator."
+            ]
+        }
+    }
+}

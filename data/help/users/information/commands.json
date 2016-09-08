@@ -1,0 +1,31 @@
+{
+    "user": {
+        "aliases": ["u"],
+        "params": [
+            {
+                "name": {
+                    "en": "user",
+                    "ro": "utilizator"
+                },
+                "required": false
+            }
+        ],
+        "level": 13,
+        "description": {
+            "en": [
+                "Get all the information about a certain user.",
+                "If no user is specified, it will show your information."
+            ],
+            "ro": [
+                "Afişează informaţii despre un utilizator.",
+                "Dacă utilizatorul nu e specificat, va afişa informaţiile tale."
+            ]
+        }
+    },
+    "CHATANGO": {
+        "name": {
+            "en": "CHATANGO",
+            "ro": "CHATANGO"
+        }
+    }
+}
